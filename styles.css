@@ -9,7 +9,7 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #464545; /* Azul Claro */
+    background-color: #464545; 
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -18,7 +18,7 @@ header {
 
 /* Navegação */
 nav {
-    background-color: #6e6e6e; /* Verde Claro */
+    background-color: #6e6e6e; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #959896; /* Verde Escuro */
+    background-color: #959896; 
     color: #fff;
     border-radius: 5px;
 }
@@ -96,7 +96,7 @@ section {
 
 /* Formulário de Comentários */
 #add-comment h2 {
-    color: #757778; /* Azul Claro */
+    color: #757778; 
 }
 
 #add-comment textarea {
@@ -118,20 +118,20 @@ section {
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #636363; /* Azul Claro */
+    background-color: #636363; 
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
 #add-comment button:hover {
-    background-color: #000000; /* Azul Escuro */
+    background-color: #000000; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Rodapé */
 footer {
-    background-color: #636363; /* Verde Claro */
+    background-color: #636363; 
     color: #fff;
     padding: 10px 0;
     text-align: center;
