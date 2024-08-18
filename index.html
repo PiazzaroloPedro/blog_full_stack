@@ -11,12 +11,14 @@
         <h1>Blog</h1>
     </header>
     <nav>
-        <a href="#" onclick="filterComments('todas')">Home</a>
-        <a href="#" onclick="filterComments('basquete')">Basquete</a>
-        <a href="#" onclick="filterComments('futebol')">Futebol</a>
-        <a href="#" onclick="filterComments('tecnologia')">Tecnologia</a>
-        <a href="#" onclick="filterComments('cinema')">Cinema</a>
-        <a href="#" onclick="filterComments('musica')">Música</a>
+        <ul>
+            <li><a href="#" onclick="filterComments('todas')">Home</a></li>
+            <li><a href="#" onclick="filterComments('basquete')">Basquete</a></li>
+            <li><a href="#" onclick="filterComments('futebol')">Futebol</a></li>
+            <li><a href="#" onclick="filterComments('tecnologia')">Tecnologia</a></li>
+            <li><a href="#" onclick="filterComments('cinema')">Cinema</a></li>
+            <li><a href="#" onclick="filterComments('musica')">Música</a></li>
+        </ul>
     </nav>
     <section id="comments-section">
         <!-- Comentários dinâmicos aparecerão aqui -->
@@ -36,6 +38,10 @@
             <button type="submit">Adicionar Comentário</button>
         </form>
     </section>
+
+    <footer>
+        <p>&copy; 2024 Blog de Alunos Da Facudade de Vassouras</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
