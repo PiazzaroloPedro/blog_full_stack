@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog </title>
+    <title>Blog</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Blog </h1>
+        <h1>Blog</h1>
     </header>
     <nav>
-        <a href="#" onclick="filterComments('todas')">Todas</a>
+        <a href="#" onclick="filterComments('todas')">Home</a>
         <a href="#" onclick="filterComments('basquete')">Basquete</a>
         <a href="#" onclick="filterComments('futebol')">Futebol</a>
         <a href="#" onclick="filterComments('tecnologia')">Tecnologia</a>
+        <a href="#" onclick="filterComments('cinema')">Cinema</a>
+        <a href="#" onclick="filterComments('musica')">Música</a>
     </nav>
     <section id="comments-section">
         <!-- Comentários dinâmicos aparecerão aqui -->
@@ -28,7 +30,8 @@
                 <option value="basquete">Basquete</option>
                 <option value="futebol">Futebol</option>
                 <option value="tecnologia">Tecnologia</option>
-                <!-- Outras categorias -->
+                <option value="cinema">Cinema</option>
+                <option value="musica">Música</option>
             </select><br>
             <button type="submit">Adicionar Comentário</button>
         </form>

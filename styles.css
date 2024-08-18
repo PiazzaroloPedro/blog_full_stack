@@ -36,6 +36,27 @@ section {
     border-radius: 5px;
 }
 
+/* Estilos para as categorias */
+.comment[data-category="basquete"] {
+    border-left: 5px solid #2980b9; /* Azul */
+}
+
+.comment[data-category="futebol"] {
+    border-left: 5px solid #27ae60; /* Verde */
+}
+
+.comment[data-category="tecnologia"] {
+    border-left: 5px solid #e74c3c; /* Vermelho */
+}
+
+.comment[data-category="cinema"] {
+    border-left: 5px solid #f39c12; /* Laranja */
+}
+
+.comment[data-category="musica"] {
+    border-left: 5px solid #9b59b6; /* Roxo */
+}
+
 #add-comment {
     margin: 20px;
 }
