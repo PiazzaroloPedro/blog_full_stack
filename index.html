@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog </h1>
+    </header>
+    <nav>
+        <a href="#" onclick="filterComments('todas')">Todas</a>
+        <a href="#" onclick="filterComments('basquete')">Basquete</a>
+        <a href="#" onclick="filterComments('futebol')">Futebol</a>
+        <a href="#" onclick="filterComments('tecnologia')">Tecnologia</a>
+    </nav>
+    <section id="comments-section">
+        <!-- Comentários dinâmicos aparecerão aqui -->
+    </section>
+
+    <section id="add-comment">
+        <h2>Adicionar Comentário</h2>
+        <form onsubmit="addComment(event)">
+            <textarea id="comment-text" placeholder="Escreva seu comentário..." required></textarea><br>
+            <select id="comment-category">
+                <option value="basquete">Basquete</option>
+                <option value="futebol">Futebol</option>
+                <option value="tecnologia">Tecnologia</option>
+                <!-- Outras categorias -->
+            </select><br>
+            <button type="submit">Adicionar Comentário</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
